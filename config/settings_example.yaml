@@ -1,0 +1,15 @@
+# AmzInsights Configuration Template
+# Rename this file to 'settings.yaml' after filling in the values
+
+app_settings:
+  browser_visible: true         # Set to false for headless mode (not recommended for Amazon)
+  default_search_pages: 3
+  export_format: "xlsx"         # options: xlsx, csv, json
+
+database:
+  db_path: "data/amazon_intelligence.db"
+  backup_enabled: true
+
+analysis:
+  remove_outliers: true         # Uses IQR method
+  zscore_threshold: 2.0         # Sensitivity for value-for-money analysis

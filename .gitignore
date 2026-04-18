@@ -1,0 +1,20 @@
+# --- Private Data & Logs ---
+data/
+logs/
+*.db
+*.sqlite
+*.xlsx
+*.json
+
+# --- Virtual Environment ---
+venv/
+.env
+
+# --- Python Cache & IDE ---
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+config/settings.yaml
+config/selectors.yaml

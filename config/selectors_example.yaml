@@ -1,0 +1,11 @@
+# Amazon CSS Selectors Template
+# Rename this file to 'selectors.yaml'
+
+amazon_elements:
+  product_container: "div[data-component-type='s-search-result']"
+  title: "h2 a span"
+  price_whole: "span.a-price-whole"
+  price_fraction: "span.a-price-fraction"
+  rating: "span.a-icon-alt"
+  review_count: "span.a-size-base.s-underline-text"
+  product_link: "h2 a.a-link-normal"
