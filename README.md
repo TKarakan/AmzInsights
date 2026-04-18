@@ -1,4 +1,4 @@
-# 🛒 AmzInsights: Data Science Driven Market Analyzer
+# 🛒 AmzInsights: 
 
 > **Turn raw e-commerce data into actionable market insights using advanced statistical cleaning and professional visualizations.**
 
